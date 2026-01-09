@@ -150,6 +150,17 @@
         ul { list-style: none; padding: 0; }
         li { margin-bottom: 8px; }
         strong { text-decoration: underline; }
+        
+        .btn-link {
+    text-decoration: none; /* Removes the underline */
+    display: block; /* Ensures the link fills the button area */
+    color: Black;
+}
+
+/* Optional: Ensure the button cursor still looks like a pointer */
+.btn {
+    cursor: pointer;
+}
 
     </style>
 </head>
@@ -258,8 +269,10 @@
 
 <div class="taskbar">
     <div class="start-button">
+        <a href="/CodeCraft" class="btn-link">
         <img src="https://win98icons.alexmeub.com/icons/png/windows-0.png" width="16" style="margin-right:5px">
         Inicio
+        </a>
     </div>
 </div>
 
